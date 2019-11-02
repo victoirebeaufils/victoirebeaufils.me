@@ -1,0 +1,17 @@
+.about-me{
+    margin-top: 30px;
+    margin-bottom: 30px;
+     }
+     .contact-me{
+       margin-top: 30px;
+       margin-bottom: 30px;
+        }
+    
+        /*Projects page*/
+        .projects{
+            margin-top:2vh;
+        }
+.technologies .badge-dark{
+    margin:10px 5px;
+    padding:10px;
+}

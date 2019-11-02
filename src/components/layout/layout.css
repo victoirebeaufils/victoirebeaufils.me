@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700&display=swap');@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+   
+}
+h1,h2{
+    font-weight: 600;
+}
+
+h4{
+    font-size:20px;
+}
+
+/*Github & other buttons*/
+button a, button a:hover{
+  text-decoration:none;
+  color:white
+}
+
+@media screen and (min-width: 480px)  and (max-width:576px){
+  .container{
+      padding:10%;
+  }
+  .icon{
+    padding:10% 20%;
+}
+.see-more{
+  margin-bottom:3%;
+}
+}
+@media screen and (min-width: 576px)  and (max-width:992px){
+  .icon{
+    padding:10% 20%;
+}
+}
+@media screen and (min-width:576px){
+  p{
+    font-size:18px;
+} 
+.flag-icon{
+  margin-right:5%;
+}
+.other-projects{
+  margin-bottom: 50px;
+  margin-top:15px;
+}
+.other-projects .project-description .technologies-used{
+  margin-top:1vh;
+  
+}
+.other-project-left .project-description {
+   margin-right:3vh;
+}
+.other-project-right .project-description{
+   margin-right:3vh;
+  
+}
+
+
+.other-project-left{
+  max-width: 48%;
+  margin-right:2%;
+}
+.other-project-right{
+  max-width: 48%;
+  margin-left:2%;
+}
+}
+/* Footer */
+.footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #414141;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  
+}
+.social-media-link{
+  color: inherit;
+  -webkit-filter: brightness(100%);
+  margin:0px 10px 0px;
+}
+.social-media-link:hover{
+  color:inherit;
+  -webkit-filter: brightness(70%);
+
+}
+.logo{
+  height:40px;
+}
+.footer .row .col-lg-6 {
+  color:grey;
+}
+.footer a {
+  color:inherit;
+}
+/*projects*/
+.other-projects * {
+  margin: 15px 0px 0px;
+}
+/* Project 1 */
+.technologies .badge-dark{
+  margin:10px 5px;
+  padding:10px;
+}
+technologies .badge-dark:hover{
+  background-color:black;
+}
+
+/* TIMELINE */
+ul.timeline {
+  list-style-type: none;
+  position: relative;
+}
+ul.timeline:before {
+  content: ' ';
+  background: #d4d9df;
+  display: inline-block;
+  position: absolute;
+  left: 29px;
+  width: 2px;
+  height: 100%;
+  z-index: 400;
+}
+ul.timeline > li {
+  margin: 20px 0;
+  padding-left: 20px;
+}
+ul.timeline > li:before {
+  content: ' ';
+  background: white;
+  display: inline-block;
+  position: absolute;
+  border-radius: 50%;
+  border: 3px solid #22c0e8;
+  left: 20px;
+  width: 20px;
+  height: 20px;
+  z-index: 400;
+}
+
+
+
