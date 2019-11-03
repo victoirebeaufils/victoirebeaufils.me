@@ -7,7 +7,7 @@ return(
 <div className="banner container-fluid">
 
 <div className="row  d-flex h-100">
-    <div className="col-8 justify-content-center align-self-center product-info">
+    <div className="col-lg-8 justify-content-center align-self-center product-info">
         <div className="row ">
 
             <div className="product-name">
@@ -40,7 +40,7 @@ return(
     </div>
 
 
-    <div className="col-4 product-illustration">
+    <div className="col-lg-4 product-illustration">
         <img className="img-fluid" src={illustration}alt="project image"></img>
     </div>
 </div>
