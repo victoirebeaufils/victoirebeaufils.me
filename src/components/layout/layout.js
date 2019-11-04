@@ -2,8 +2,7 @@ import React from 'react';
 import Header from '../header';
 import Footer from '../footer';
 import 'bootstrap/dist/css/bootstrap.css';
-import $ from 'jquery/dist/jquery.slim' // importing this worked like a charm
-import 'popper.js' // importing this worked like a charm as well
+import Popper from 'popper.js';
 import './layout.css';
 function Layout (props){
     return (
