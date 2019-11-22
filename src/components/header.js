@@ -3,11 +3,12 @@ import React from "react"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {  faGlobe } from '@fortawesome/fontawesome-free-solid'
 import icon from "../images/icon.png"
+import "../components/header.css"
 const Header = () =>{
   return (
-    <nav className="navbar navbar-expand-sm navbar-light bg-light">
+    <nav className="navbar navbar-expand-lg navbar-light bg-light">
             <div className="container">
-                <Link className="navbar-brand" to="../"><img src={icon} className="img-fluid logo" alt="logo within navbar"/></Link>
+           <Link className="navbar-brand" to="../"><img src={icon} className="img-fluid logo" alt="logo within navbar"/></Link>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
                   <span className="navbar-toggler-icon"></span>
                 </button>
@@ -22,9 +23,10 @@ const Header = () =>{
                     <li className="nav-item">
                       <Link className="nav-link " to="../about">About</Link>
                     </li>
-                    <li className="nav-item">
+                    {/*<li className="nav-item">
                       <Link className="nav-link " to="../blog">Blog</Link>
-                    </li>
+  </li>*/}
+
                     {/*
                     <li className="nav-item dropdown">
                       <a className="nav-link dropdown-toggle" id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><FontAwesomeIcon icon="globe" /></a>
@@ -41,7 +43,7 @@ const Header = () =>{
                     </li>*/}
                   </ul>
                 </div>
-            </div>
+           </div>
         </nav>
 )
 }

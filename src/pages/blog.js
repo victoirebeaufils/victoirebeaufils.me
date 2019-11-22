@@ -25,7 +25,7 @@ const BlogPage = () =>{
     `)
 console.log(data);
 return (<Layout>
-     <SEO title="Blog | Victoire Beaufils" />
+     <SEO title="Blog" />
    <ol>
        {
            data.allContentfulBlogPost.edges.map((edge)=>{

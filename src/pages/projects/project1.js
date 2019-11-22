@@ -7,7 +7,8 @@ import ProjectBanner from "../../components/project-banner/project-banner"
 
 const Project1Page = () => (
   <Layout>
-      <ProjectBanner>
+      <ProjectBanner title="hey jude" github="https://www.github.com/victoirebeaufils"
+      description="This is project 1. Project 1 is very important as it represents the first page I've worked on in order to make this website look good.">
 
       </ProjectBanner>
       <div className="container">

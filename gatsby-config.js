@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-      title: 'Victoire Beaufils Portfolio ',
+      title: 'Victoire Beaufils ',
       author: 'Victoire Beaufils',
-      description:"My website"
+      description:"This website showcases a few programming projects which I worked on paired with some of my fields of interest"
   },
   plugins: [
       'gatsby-plugin-react-helmet',
@@ -36,6 +36,12 @@ module.exports = {
                   }
               ]
           }
-      }
+      },
+      {resolve: 'gatsby-plugin-manifest',
+    options:{
+        name: 'Victoire Beaufils',
+        icon:'src/images/icon.png'
+    }
+    }
   ]
 }

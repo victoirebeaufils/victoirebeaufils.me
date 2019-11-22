@@ -7,7 +7,7 @@ const Footer = () =>{
     <div className="row">
         <div className="col">
             <Link to ="projects/"><b>Projects</b></Link>
-            <p><Link to="projects/project1" >Project 1</Link></p>
+            <p><Link to="projects/mental-illnesses-d3" >Scientific interest in mental illnesses</Link></p>
         </div>
         <div className="col">
             <a href="about.html"><b>Contact</b></a>

@@ -43,7 +43,7 @@ button a, button a:hover{
   margin-right:5%;
 }
 .other-projects{
-  margin-bottom: 50px;
+  
   margin-top:15px;
 }
 .other-projects .project-description .technologies-used{
@@ -78,6 +78,8 @@ button a, button a:hover{
   color: white;
   text-align: center;
   padding: 15px;
+  margin-top: 50px;
+  
   
 }
 .social-media-link{
@@ -142,6 +144,20 @@ ul.timeline > li:before {
   width: 20px;
   height: 20px;
   z-index: 400;
+}
+.btn-primary{
+  background-color: #7156da;
+  border:none;
+}
+
+.project-link{
+margin-left: 5px;
+margin-right:5px;
+
+}
+.row{
+  margin-left: 0;
+  padding-left:0;
 }
 
 
