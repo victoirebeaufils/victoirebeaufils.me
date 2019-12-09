@@ -2,11 +2,11 @@ import React, { Component } from 'react'
 import Layout from '../../components/layout/layout'
 import * as d3 from 'd3'
 import BarChart from '../../components/barchart'
-import PieChart from '../../components/piechart';
 import Chart from '../../components/chart';
 import ProjectBanner from '../../components/project-banner/project-banner'
 import mentalIllnessIcon from "../../images/mentalillness-icon.jpg";
 import SEO from "../../components/seo"
+
 class MentalIllnesses extends Component {
     render() { 
         const therapies ={
@@ -154,6 +154,342 @@ class MentalIllnesses extends Component {
                             color:"#BDF7B7"
                           
                         },
+                    ]
+                }
+            ],
+        
+        };
+        const anxietyDisorder ={
+            chart: {
+                type: 'column'
+            },
+            title: {
+                text: 'Scientific publications on anxiety disorders'
+            },
+            subtitle: {
+                text: 'Source: <a href="https://www.ncbi.nlm.nih.gov" target="_blank">https://www.ncbi.nlm.nih.gov</a>'
+            },
+            xAxis: {
+                type: 'category'
+            },
+            yAxis: {
+                title: {
+                    text: 'Number of publications'
+                }
+        
+            },
+            legend: {
+                enabled: false
+            },
+            plotOptions: {
+                series: {
+                    borderWidth: 0,
+                    dataLabels: {
+                        enabled: true,
+                        format: '{point.y:1f}'
+                    }
+                }
+            },
+        
+            tooltip: {
+                headerFormat: '<span style="font-size:11px">{series.name}</span><br>',
+                pointFormat: '<span style="color:{point.color}">{point.name}</span>: <b>{point.y:1f}</b> publications<br/>'
+            },
+        
+            series: [
+                {
+                    name: "Anxiety disorders",
+                    colorByPoint: true,
+                    data: [
+                    
+                        {
+                           name: "Social anxiety disorder",
+                            y: 136913
+                        },
+                            {
+                                name:"PTSD",
+                                y:118458
+                            },
+                          
+                            {
+                                name:"Generalized anxiety disorder",
+                                y: 56221
+                            },
+                            {
+                                name:"OCD",
+                               y:52231
+                            },
+                            {
+                                name:"Phobia",
+                                y:41120
+                            },
+                            {
+                                name:"Panic disorder",
+                                y:40929
+                            },
+                    ]
+                }
+            ],
+        
+        };
+        const moodDisorder ={
+            chart: {
+                type: 'column'
+            },
+            title: {
+                text: 'Scientific publications on mood disorders'
+            },
+            subtitle: {
+                text: 'Source: <a href="https://www.ncbi.nlm.nih.gov" target="_blank">https://www.ncbi.nlm.nih.gov</a>'
+            },
+            xAxis: {
+                type: 'category'
+            },
+            yAxis: {
+                title: {
+                    text: 'Number of publications'
+                }
+        
+            },
+            legend: {
+                enabled: false
+            },
+            plotOptions: {
+                series: {
+                    borderWidth: 0,
+                    dataLabels: {
+                        enabled: true,
+                        format: '{point.y:1f}'
+                    }
+                }
+            },
+        
+            tooltip: {
+                headerFormat: '<span style="font-size:11px">{series.name}</span><br>',
+                pointFormat: '<span style="color:{point.color}">{point.name}</span>: <b>{point.y:1f}</b> publications<br/>'
+            },
+        
+            series: [
+                {
+                    name: "Mood disorders",
+                    colorByPoint: true,
+                    data: [
+                    
+                        {
+                            name:"Depression",
+                            y:1394345
+                        },
+                            {
+                                name:"Bipolar disorder",
+                                y:493579
+                            },
+                           
+                            {
+                                name:"Depressive disorder",
+                                y:259723
+                        },
+                            {
+                                name:"Cyclothymia",
+                                y: 2568
+                            },
+                    ]
+                }
+            ],
+        
+        };
+        const personalityDisorder ={
+            chart: {
+                type: 'column'
+            },
+            title: {
+                text: 'Scientific publications on mood disorders'
+            },
+            subtitle: {
+                text: 'Source: <a href="https://www.ncbi.nlm.nih.gov" target="_blank">https://www.ncbi.nlm.nih.gov</a>'
+            },
+            xAxis: {
+                type: 'category'
+            },
+            yAxis: {
+                title: {
+                    text: 'Number of publications'
+                }
+        
+            },
+            legend: {
+                enabled: false
+            },
+            plotOptions: {
+                series: {
+                    borderWidth: 0,
+                    dataLabels: {
+                        enabled: true,
+                        format: '{point.y:1f}'
+                    }
+                }
+            },
+        
+            tooltip: {
+                headerFormat: '<span style="font-size:11px">{series.name}</span><br>',
+                pointFormat: '<span style="color:{point.color}">{point.name}</span>: <b>{point.y:1f}</b> publications<br/>'
+            },
+        
+            series: [
+                {
+                    name: "Personality disorders",
+                    colorByPoint: true,
+                    data: [
+                        {
+                            name:"Schyzoid personality disorder",
+                            y:181461
+                        },
+                        {
+                            name:"Narcissistic personality disorder",
+                            y:163447
+                        },
+                        {
+                            name:"Borderline personality disorder",
+                            y:23072
+                        },
+                        {
+                            name:"Schyzotypal personality disorder",
+                            y:9104
+                        },
+                        {
+                            name:"Paranoia & delusional personality disorder",
+                            y:1191
+                        },
+                    ]
+                }
+            ],
+        
+        };
+        const psychoticDisorder ={
+            chart: {
+                type: 'column'
+            },
+            title: {
+                text: 'Scientific publications on mood disorders'
+            },
+            subtitle: {
+                text: 'Source: <a href="https://www.ncbi.nlm.nih.gov" target="_blank">https://www.ncbi.nlm.nih.gov</a>'
+            },
+            xAxis: {
+                type: 'category'
+            },
+            yAxis: {
+                title: {
+                    text: 'Number of publications'
+                }
+        
+            },
+            legend: {
+                enabled: false
+            },
+            plotOptions: {
+                series: {
+                    borderWidth: 0,
+                    dataLabels: {
+                        enabled: true,
+                        format: '{point.y:1f}'
+                    }
+                }
+            },
+        
+            tooltip: {
+                headerFormat: '<span style="font-size:11px">{series.name}</span><br>',
+                pointFormat: '<span style="color:{point.color}">{point.name}</span>: <b>{point.y:1f}</b> publications<br/>'
+            },
+        
+            series: [
+                {
+                    name: "Psychotic disorders",
+                    colorByPoint: true,
+                    data: [
+                        
+                        {
+                           name: "Schizophrenia",
+                            y: 878129
+                        },
+                        {
+                           name: "Schizoaffective disorder",
+                            y: 127158
+                        },
+                        {
+                            name: "Postpartum psychosis",
+                            y: 4417
+                        },
+                    ]
+                }
+            ],
+        
+        };
+        const eatingDisorder ={
+            chart: {
+                type: 'column'
+            },
+            title: {
+                text: 'Scientific publications on mood disorders'
+            },
+            subtitle: {
+                text: 'Source: <a href="https://www.ncbi.nlm.nih.gov" target="_blank">https://www.ncbi.nlm.nih.gov</a>'
+            },
+            xAxis: {
+                type: 'category'
+            },
+            yAxis: {
+                title: {
+                    text: 'Number of publications'
+                }
+        
+            },
+            legend: {
+                enabled: false
+            },
+            plotOptions: {
+                series: {
+                    borderWidth: 0,
+                    dataLabels: {
+                        enabled: true,
+                        format: '{point.y:1f}'
+                    }
+                }
+            },
+        
+            tooltip: {
+                headerFormat: '<span style="font-size:11px">{series.name}</span><br>',
+                pointFormat: '<span style="color:{point.color}">{point.name}</span>: <b>{point.y:1f}</b> publications<br/>'
+            },
+        
+            series: [
+                {
+                    name: "Eating disorders",
+                    colorByPoint: true,
+                    data: [
+                        {
+                            name:"Anorexia nervosa",
+                           y:49593
+                        },
+                        {
+                            name:"Pica",
+                            y:23027
+                        },
+                        {
+                            name:"Avoidant or restrictive food intake disorder / ARFID",
+                           y:22065
+                        },
+                        {
+                           name: "Bulimia nervosa",
+                            y:18966
+                        },
+                        {
+                          name:"Rumination disorder",
+                          y:15433
+                    },
+                        {
+                          name:"Binge eating disorder",
+                          y:14038
+                        }
                     ]
                 }
             ],
@@ -369,25 +705,7 @@ class MentalIllnesses extends Component {
               ]
           }
           }; 
-        const numbers=[ 493579, 259723,2568];
-    var disorders = ["Bipolar disorder","Depressive disorder", "Cyclothymia"];
-    function execute(callback) {
-            d3.csv("https://gist.githubusercontent.com/victoirebeaufils/bdc33d6da0fb98eacf4b6c7d630c280b/raw", function(data){
-            var number = parseInt(data.number);
-            var disorder = data.disorder;
-              disorders.push(data.disorder);
-              numbers.push(number);
-              callback(disorders);
-             
-            });
-         }
-         disorders.push("nez push");
-         
-         execute(function(result) {
-       
-         });
-         console.log("disorders")
-         console.log(disorders)
+    
         return (
 
          
@@ -406,8 +724,6 @@ class MentalIllnesses extends Component {
       <h2>Technologies</h2>
            <div className="row technologies">
            <div className=""> <h3><span className="badge  badge-dark">React</span></h3></div>
-               <div className=""> <h3><span className="badge  badge-dark">D3.js</span></h3>
-               </div>
                <div className="">  <h3><span className="badge  badge-dark">Highcharts</span></h3>
                 </div>
 
@@ -440,7 +756,82 @@ product to help me with illnesses I hadn't heard of.
             <br/>
             <Chart className="chart" options={mentaldisorders}/>
             <br/>
-<p> You can click on each bar to access a detailed graph of the number of publications with the disorder keywords in it.</p>
+{/*ACCORDION*/}
+
+<div id="accordion">
+  <div class="card">
+    <div class="card-header" id="headingOne">
+      <h5 class="mb-0">
+        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          Anxiety disorders
+        </button>
+      </h5>
+    </div>
+
+    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+      <div class="card-body">
+      <Chart options={anxietyDisorder}/>
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingTwo">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Mood disorders
+        </button>
+      </h5>
+    </div>
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+      <div class="card-body">
+      <Chart options={moodDisorder}/>
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingThree">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          Personality disorders
+        </button>
+      </h5>
+    </div>
+    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+      <div class="card-body">
+        <Chart options={personalityDisorder}/>
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingFour">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+          Psychotic disorders
+        </button>
+      </h5>
+    </div>
+    <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+      <div class="card-body">
+       <Chart options = {psychoticDisorder}/>
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingFive">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+          Eating disorders
+        </button>
+      </h5>
+    </div>
+    <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+      <div class="card-body">
+      <Chart options={eatingDisorder}/>
+      </div>
+    </div>
+  </div>
+</div>
+<br/>
 
 <p>There were some parts of this scientific publication analysis that remained unclear. For example, the number of publication with the keyword "Pica" might not accurately represent the number of publications related to the disorder, taking into account the publications in the Proteins and Genomes database  </p>
 <p>In addition, it isn't clear whether the search engine counts a document as a result if all of the expression or part of it is in the document.</p>
@@ -460,8 +851,6 @@ product to help me with illnesses I hadn't heard of.
             <br/>
             <p>New data would be needed to answer these questions, but this analysis sheds light on an issue within data science: There are many ways to interpret data, and there needs to be different points of view to achieve a general understanding of the subject at cause. </p>
                 
-      {/* <BarChart data={numbers} titles= {disorders}/>
-       <PieChart data={numbers} titles={disorders}/>*/}
        
 </div>
        </Layout>) }

@@ -1,13 +1,18 @@
 import React from 'react';
-import { render } from 'react-dom';
 import Highcharts from 'highcharts';
 import HighchartsReact from 'highcharts-react-official';
-import drilldown from 'highcharts-drilldown';
-import highchartsAccessibility from "highcharts/modules/accessibility";
-if (typeof window !== `undefined`) {
-  highchartsAccessibility(Highcharts);
+//import drilldown from 'highcharts-drilldown';
+import drilldown from 'highcharts/modules/drilldown'
+import HighchartsExporting from 'highcharts/modules/exporting';
+
+
+//drilldown(Highcharts);
+
+if (typeof Highcharts === 'object') {
+  HighchartsExporting(Highcharts)
 }
-drilldown(Highcharts);
+
+//drilldown(Highcharts);
 
 
 
