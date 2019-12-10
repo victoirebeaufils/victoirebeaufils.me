@@ -150,6 +150,9 @@ ul.timeline > li:before {
   border:none;
 }
 
+.btn-primary:hover{color:#fff;background-color:#503c99;border-color:#503c99}
+.btn-primary:focus{color:#fff;background-color:#503c99;border-color:#503c99;box-shadow:0 0 0 .2rem rgba(80,60,153,.5)}
+
 .project-link{
 margin-left: 5px;
 margin-right:5px;
