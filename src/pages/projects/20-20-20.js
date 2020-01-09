@@ -2,13 +2,14 @@ import React from "react"
 
 import Layout from "../../components/layout/layout"
 import SEO from "../../components/seo"
-
+import Icon202020 from "../../images/20-20-20-icon.jpg";
 import ProjectBanner from "../../components/project-banner/project-banner"
 
 const twentyTwentyTwentyPage = () => (
   <Layout>
       <ProjectBanner title="20-20-20" github="https://www.github.com/victoirebeaufils/20-20-20"
-      description="A React Native app to reduce eye strain following the 20-20-20 rule : Every 20 minutes, look 20 feet in the distance for 20 seconds">
+      description="A React Native app to reduce eye strain following the 20-20-20 rule : Every 20 minutes, look 20 feet in the distance for 20 seconds"
+      illustration={Icon202020}>
 
       </ProjectBanner>
       <div className="container">

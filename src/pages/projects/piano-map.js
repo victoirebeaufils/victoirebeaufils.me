@@ -2,13 +2,13 @@ import React from "react"
 
 import Layout from "../../components/layout/layout"
 import SEO from "../../components/seo"
-
+import pianoMapIcon from "../../images/pianomap-icon.jpg";
 import ProjectBanner from "../../components/project-banner/project-banner"
 
 const PianoMapPage = () => (
   <Layout>
       <ProjectBanner title="Piano map" github="https://www.github.com/victoirebeaufils/pianomap"
-      description="A map of public pianos around the world based on user contributions">
+      description="A map of public pianos around the world based on user contributions" illustration={pianoMapIcon}>
 
       </ProjectBanner>
       <div className="container">
