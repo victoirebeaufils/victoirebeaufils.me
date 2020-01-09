@@ -42,7 +42,8 @@ const ProjectPage = () => (
                 <ProjectCard title ="Piano map" 
                 technologies="MongoDB / Express / Node / React / Maps API"
                 description="A map of public pianos around the world based on user contributions" 
-                illustration={PianoMapIcon}/>
+                illustration={PianoMapIcon}
+                link ="projects/piano-map"/>
                    
                 </div>
                 <div className="col-lg-6 other-project-right">
