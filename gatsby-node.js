@@ -1,6 +1,6 @@
-const path = require('path')
 
-module.exports.createPages = async ({ graphql, actions }) => {
+
+/*module.exports.createPages = async ({ graphql, actions }) => {
     const { createPage } = actions
     const blogTemplate = path.resolve('./src/templates/blog.js')
     const res = await graphql(`
@@ -14,28 +14,5 @@ module.exports.createPages = async ({ graphql, actions }) => {
             }
         }
     `)
-
-    res.data.allContentfulBlogPost.edges.forEach((edge) => {
-        createPage({
-            component: blogTemplate,
-            path: `/blog/${edge.node.slug}`,
-            context: {
-                slug: edge.node.slug
-            }
-        })
-    })
-}
-exports.onCreateWebpackConfig = ({ stage, loaders, actions }) => {
-    if (stage === "build-html") {
-      actions.setWebpackConfig({
-        module: {
-          rules: [
-            {
-              test: /bad-module/,
-              use: loaders.null(),
-            },
-          ],
-        },
-      })
-    }
-  }
+*/
+ 

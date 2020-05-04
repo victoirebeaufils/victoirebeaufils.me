@@ -8,7 +8,8 @@ import ProjectBanner from "../../components/project-banner/project-banner"
 const PianoMapPage = () => (
   <Layout>
       <ProjectBanner title="Piano map" github="https://www.github.com/victoirebeaufils/pianomap"
-      description="A map of public pianos around the world based on user contributions" illustration={pianoMapIcon}>
+      description="A map of public pianos around the world based on user contributions" illustration={pianoMapIcon}
+      date="March 26, 2020">
 
       </ProjectBanner>
       <div className="container">

@@ -14,18 +14,18 @@ const ProjectPage = () => (
     <div className="container projects">
         <h2 className="text-center"> Projects </h2>
         <div className="col-lg-4 offset-lg-4">
-           {/*<SearchBar/>*/}
+          {/* <SearchBar/>*/}
+
         </div>
 
         <div className="row other-projects justify-content-md-center">
                 <div className="col-lg-6 other-project-left">
-                <ProjectCard title ="Scientific interest in mental illnesses" 
-                technologies="React / Highcharts"
-                description="I tried to depict the scientific interest in mental illnesses by retrieving datafrom the U.S
-                 National Library of medicine. I searched 36 databases for the selected queries that
-                  I think best cover the most prominent mental illnesses. " 
-                link ="projects/mental-illnesses" 
-                illustration={mentalIllnessIcon}/>
+                <ProjectCard title ="Piano map" 
+                technologies="MongoDB / Express / Node / React / Maps API"
+                description="A map of public pianos around the world based on user contributions" 
+                illustration={PianoMapIcon}
+                link ="projects/piano-map"
+                github = "https://www.github.com/victoirebeaufils/pianomap"/>
                    
                 </div>
                 <div className="col-lg-6 other-project-right">
@@ -39,12 +39,14 @@ const ProjectPage = () => (
 </div>
                   <div className="row other-projects justify-content-md-center">
                   <div className="col-lg-6 other-project-left">
-                <ProjectCard title ="Piano map" 
-                technologies="MongoDB / Express / Node / React / Maps API"
-                description="A map of public pianos around the world based on user contributions" 
-                illustration={PianoMapIcon}
-                link ="projects/piano-map"/>
-                   
+            
+                        <ProjectCard title ="Scientific interest in mental illnesses" 
+                technologies="React / Highcharts"
+                description="I tried to depict the scientific interest in mental illnesses by retrieving datafrom the U.S
+                 National Library of medicine. I searched 36 databases for the selected queries that
+                  I think best cover the most prominent mental illnesses. " 
+                link ="projects/mental-illnesses" 
+                illustration={mentalIllnessIcon}/>
                 </div>
                 <div className="col-lg-6 other-project-right">
                {/*} <ProjectCard 

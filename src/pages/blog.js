@@ -2,31 +2,24 @@ import React from "react"
 
 import Layout from "../components/layout/layout"
 import SEO from "../components/seo"
-import {Link, graphql, useStaticQuery} from 'gatsby'
+import {graphql} from 'gatsby'
 
-const BlogPage = () =>{
+
+
+const BlogPage = ({data}) =>{
    
-    const data = useStaticQuery(graphql`
-    query{
-        allContentfulBlogPost(
-        sort:{
-          fields: publishedDate,
-          order: DESC
-        }){
-          edges{
-            node{
-              title
-              slug
-              publishedDate(formatString:"MMMM Do, YYYY")
-              }
-            }
-          }
-      }
-    `)
-console.log(data);
+ 
 return (<Layout>
      <SEO title="Blog" />
-   <ol>
+     <h1>My WordPress Blog</h1>
+      <h4>Posts</h4>
+      {data.allWordpressPost.edges.map(({ node }) => (
+        <div>
+          <p>{node.title}</p>
+          <div dangerouslySetInnerHTML={{ __html: node.excerpt }} />
+        </div>
+      ))}
+     {/*
        {
            data.allContentfulBlogPost.edges.map((edge)=>{
 return(
@@ -38,8 +31,8 @@ return(
     </li>
            )
            })
-       }
-   </ol>
+       }*/}
+  
 </Layout>
     )
     

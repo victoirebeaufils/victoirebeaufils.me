@@ -4,6 +4,7 @@ import Layout from "../components/layout/layout"
 import SEO from "../components/seo"
 import "../components/about.css"
 import  picture from "../images/picture.png"
+import {withPrefix} from 'gatsby'
 
 const AboutPage = () => (
   <Layout>
@@ -15,7 +16,10 @@ const AboutPage = () => (
                         <p>I'm an undergraduate student in Computer Science at Purdue University. My interests withing the field of Computer Science are Education, Psychology, Accessibility and Computational neuroscience.
                         </p>
                         <p>I like climbing, photography, baking and making music.</p>
-                        <p><a href="../pdf/resume.pdf">Resume</a> | <a href="https://www.linkedin.com/in/victoirebeaufils/">Linkedin</a> | <a href="https://www.github.com/victoirebeaufils">Github</a> | <a href="mailto:someone@yoursite.com"> vbeaufil@purdue.edu</a></p>
+                        <p><a 
+                        rel="noopener noreferrer"
+                        href={withPrefix('/resume_december_2019.pdf')}
+                        target="_blank">Resume</a> | <a href="https://www.linkedin.com/in/victoirebeaufils/">Linkedin</a> | <a href="https://www.github.com/victoirebeaufils">Github</a> | <a href="mailto:someone@yoursite.com"> vbeaufil@purdue.edu</a></p>
                 </div>
                 <div className=" col-lg-3 justify-content-center align-self-center">
                     <img className="img-fluid icon" src = {picture} alt="The picture of the website creator"/>

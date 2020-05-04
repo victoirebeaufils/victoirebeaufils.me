@@ -7,7 +7,7 @@ import ProjectBanner from "../../components/project-banner/project-banner"
 
 const twentyTwentyTwentyPage = () => (
   <Layout>
-      <ProjectBanner title="20-20-20" github="https://www.github.com/victoirebeaufils/20-20-20"
+      <ProjectBanner title="20-20-20" github="https://www.github.com/victoirebeaufils/20-20-20" date="December 30, 2019"
       description="A React Native app to reduce eye strain following the 20-20-20 rule : Every 20 minutes, look 20 feet in the distance for 20 seconds"
       illustration={Icon202020}>
 
