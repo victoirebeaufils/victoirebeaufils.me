@@ -22,7 +22,7 @@ const Footer = () =>{
         </div>
         <div className="col-lg-6">
             <br/>
-            <p className="text-center" > Copyright © 2019 Victoire Beaufils </p>
+            <p className="text-center" > Copyright © 2020 Victoire Beaufils </p>
         </div>
         <div className="col-lg-3 ">
             <br/>
