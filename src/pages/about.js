@@ -16,10 +16,15 @@ const AboutPage = () => (
                         <p>I'm an undergraduate student in Computer Science at Purdue University. My interests withing the field of Computer Science are Education, Psychology, Accessibility and Computational neuroscience.
                         </p>
                         <p>I like climbing, photography, baking and making music.</p>
-                        <p><a 
+                        <p>
+                        <a 
+                        class="link"
                         rel="noopener noreferrer"
-                        href={withPrefix('/resume_december_2019.pdf')}
-                        target="_blank">Resume</a> | <a href="https://www.linkedin.com/in/victoirebeaufils/">Linkedin</a> | <a href="https://www.github.com/victoirebeaufils">Github</a> | <a href="mailto:someone@yoursite.com"> vbeaufil@purdue.edu</a></p>
+                        href={withPrefix('/resume_may_2020_internship.pdf')}
+                        target="_blank">Resume</a> | 
+                        <a  class="link" href="https://www.linkedin.com/in/victoirebeaufils/">Linkedin</a> |
+                        <a  class="link" href="https://www.github.com/victoirebeaufils">Github</a> | 
+                        <a  class="link" href="mailto:vbeaufil@purdue.edu"> vbeaufil@purdue.edu</a></p>
                 </div>
                 <div className=" col-lg-3 justify-content-center align-self-center">
                     <img className="img-fluid icon" src = {picture} alt="The picture of the website creator"/>

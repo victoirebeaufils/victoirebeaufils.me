@@ -3,6 +3,8 @@
 body{
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 400;
+    display: flex;
+  flex-direction: column;
    
 }
 h1,h2{
@@ -70,7 +72,7 @@ button a, button a:hover{
 }
 /* Footer */
 .footer {
-  margin-top: -50px;
+  flex-shrink: 0;
   position: relative;
   left: 0;
   bottom: 0;

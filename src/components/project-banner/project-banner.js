@@ -21,6 +21,7 @@ return(
         <div className="row">
       
             <div className="product-short-description">
+                <h6>{props.status? props.status:null}</h6>
             <h6>{props.date!=null?props.date:null}</h6>
                 <p>{props.description!=null? props.description : "This project does not have a description yet"}
                   </p>

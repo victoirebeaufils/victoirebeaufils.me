@@ -1,4 +1,4 @@
-import React from 'react';
+{/*import React from 'react';
 import {graphql} from 'gatsby'
 import Layout from '../components/layout/layout'
 import { documentToReactComponents} from '@contentful/rich-text-react-renderer'
@@ -35,4 +35,4 @@ renderNode:{
         </Layout>
     )
 }
-export default Blog;
+export default Blog;*/}
