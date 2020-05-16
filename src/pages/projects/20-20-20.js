@@ -14,9 +14,9 @@ const twentyTwentyTwentyPage = () => (
       </ProjectBanner>
       <div className="container">
            <div className="row technologies">
-               <div className=""> <h3><span className="badge  badge-dark">React Native</span></h3>
+               <div className=""> <h5><span className="badge  badge-dark">React Native</span></h5>
                </div>
-                <div className=""> <h3><span className="badge  badge-dark">JSX</span></h3>
+                <div className=""> <h5><span className="badge  badge-dark">JSX</span></h5>
                     </div>
 
           

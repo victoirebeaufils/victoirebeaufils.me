@@ -723,8 +723,8 @@ class MentalIllnesses extends Component {
           <br/>
       <h2>Technologies</h2>
            <div className="row technologies">
-           <div className=""> <h3><span className="badge  badge-dark">React</span></h3></div>
-               <div className="">  <h3><span className="badge  badge-dark">Highcharts</span></h3>
+           <div className=""> <h5><span className="badge  badge-dark">React</span></h5></div>
+               <div className="">  <h5><span className="badge  badge-dark">Highcharts</span></h5>
                 </div>
 
 

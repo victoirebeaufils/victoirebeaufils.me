@@ -2,6 +2,7 @@ import { Link } from "gatsby"
 import React from "react"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {  faGlobe } from '@fortawesome/fontawesome-free-solid'
+import {GoMarkGithub} from 'react-icons/go'
 import icon from "../images/icon.png"
 import "../components/header.css"
 const Header = () =>{
@@ -23,6 +24,9 @@ const Header = () =>{
                     <li className="nav-item">
                       <Link className="nav-link " to="../about">About</Link>
                     </li>
+                    {/*<li className="nav-item">
+                    <a className="social-media-link" href="https://github.com/" style={{textAlign: "center"}}><GoMarkGithub/></a>
+  </li>*/}
                     {/*<li className="nav-item">
                       <Link className="nav-link " to="../blog">Blog</Link>
   </li>*/}

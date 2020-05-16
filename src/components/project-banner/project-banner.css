@@ -1,3 +1,7 @@
+.title{
+    margin-bottom: 0px;
+    padding-bottom:0px;
+}
 .github-logo{
     padding-left: 3%;
     color:#343a40;
@@ -42,5 +46,8 @@
         padding:1.5%;
     
     }
+}
+.status{
+    color: #7156da;
 }
 

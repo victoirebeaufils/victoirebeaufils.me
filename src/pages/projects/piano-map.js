@@ -4,6 +4,10 @@ import Layout from "../../components/layout/layout"
 import SEO from "../../components/seo"
 import pianoMapIcon from "../../images/pianomap-icon.jpg";
 import ProjectBanner from "../../components/project-banner/project-banner"
+import mockup1 from '../../images/pianomap/mockup1.png'
+import mockup2 from '../../images/pianomap/mockup2.png'
+import mockup3 from '../../images/pianomap/mockup3.png'
+import mockup4 from '../../images/pianomap/mockup4.png'
 
 const PianoMapPage = () => (
   <Layout>
@@ -15,11 +19,11 @@ const PianoMapPage = () => (
       </ProjectBanner>
       <div className="container">
            <div className="row technologies">
-               <div className=""> <h3><span className="badge  badge-dark">MongoDB</span></h3> </div>
-                <div className=""> <h3><span className="badge  badge-dark">Express</span></h3></div>
-                <div className=""> <h3><span className="badge  badge-dark">Node.js</span></h3></div>
-                <div className=""> <h3><span className="badge  badge-dark">React</span></h3></div>
-                <div className=""> <h3><span className="badge  badge-dark">Maps API</span></h3></div>
+               <div className=""> <h5><span className="badge  badge-dark">MongoDB</span></h5> </div>
+                <div className=""> <h5><span className="badge  badge-dark">Express</span></h5></div>
+                <div className=""> <h5><span className="badge  badge-dark">Node.js</span></h5></div>
+                <div className=""> <h5><span className="badge  badge-dark">React</span></h5></div>
+                <div className=""> <h5><span className="badge  badge-dark">Maps API</span></h5></div>
 
           
 
@@ -27,6 +31,8 @@ const PianoMapPage = () => (
             <div className="row product-long-description">
                 <h2>Overview</h2>
             <p>I wanted to create a map on piano based on user contributions, creating a CRUD application with user profiles, contributions and a login form. </p>
+            <input type="checkbox"/><p> Made a mockup in Adobe XD </p>
+
             </div>
     
 </div>

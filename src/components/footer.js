@@ -1,6 +1,6 @@
 import { Link } from "gatsby"
 import React from "react"
-
+import {GoMarkGithub} from 'react-icons/go'
 const Footer = () =>{
   return (
     <div className="footer">
@@ -26,12 +26,12 @@ const Footer = () =>{
         </div>
         <div className="col-lg-3 ">
             <br/>
-            <a className="social-media-link" href="https://github.com/"><i className="fab fa-github fa-2x"></i></a>
+           {/* <a className="social-media-link" href="https://github.com/"><GoMarkGithub/></a>
             <a className="social-media-link" href="https://www.linkedin.com/in/"><i
                     className="fab fa-linkedin fa-2x"></i></a>
             <a className="social-media-link" href="https://stackoverflow.com/"><i
                     className="fab fa-stack-overflow fa-2x"></i></a>
-        </div>
+  */}</div>
     </div>
     </div>
   )}

@@ -14,21 +14,21 @@ return(
         <div className="row ">
 
           
-                <h1 className="">{props.title}</h1>
+                <h1 className="title">{props.title}</h1>
         
             </div>
          
         <div className="row">
       
             <div className="product-short-description">
-                <h6>{props.status? props.status:null}</h6>
+                <h6 className="status">{props.status? props.status:null}</h6>
             <h6>{props.date!=null?props.date:null}</h6>
                 <p>{props.description!=null? props.description : "This project does not have a description yet"}
                   </p>
             </div>
         </div>
         <div className="product-links">
-        {props.github!=null? <button type=" button " className="btn btn-dark project-link" ><a href={props.github}> Github</a> </button> : null}
+        {props.github!=null? <button type=" button " className="btn btn-dark btn-github project-link" ><a href={props.github}> Github</a> </button> : null}
                       
                       
                 {props.page!=null? (props.page==="index"? <button type=" button " className="btn btn-primary project-link" ><Link to={props.link}> Check out project</Link> </button>: null) :null}
