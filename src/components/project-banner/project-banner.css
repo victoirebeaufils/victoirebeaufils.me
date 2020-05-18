@@ -1,4 +1,4 @@
-.title{
+.banner-title{
     margin-bottom: 0px;
     padding-bottom:0px;
 }
@@ -8,6 +8,9 @@
     font-size: 37px;
     text-decoration:none;
 
+}
+.btn-github{
+    font-size:18px;
 }
 .github-logo a, .github-logo a:link, .github-logo a:visited {
     color:#343a40;
@@ -25,7 +28,7 @@
     
 }
 .product-short-description{
-    padding-top:15px;
+    padding-top:0.5rem;
 }
 .product-links{
     margin-bottom:30px;
@@ -49,5 +52,11 @@
 }
 .status{
     color: #7156da;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
 }
+.description{
+   
+}
+
 

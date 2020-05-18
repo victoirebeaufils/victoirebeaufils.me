@@ -18,16 +18,19 @@ const PianoMapPage = () => (
 
         </ProjectBanner>
         <div className="container">
+        <br/>
+          <hr/>
             <div className="row technologies">
-                <div className=""> <h5><span className="badge  badge-dark">MongoDB</span></h5> </div>
-                <div className=""> <h5><span className="badge  badge-dark">Express</span></h5></div>
-                <div className=""> <h5><span className="badge  badge-dark">Node.js</span></h5></div>
-                <div className=""> <h5><span className="badge  badge-dark">React</span></h5></div>
+                <div className=""> <h5><span className="badge  badge-dark mongo-db-badge">MongoDB</span></h5> </div>
+                <div className=""> <h5><span className="badge  badge-dark express-badge">Express</span></h5></div>
+                <div className=""> <h5><span className="badge  badge-dark node-js-badge">Node.js</span></h5></div>
+                <div className=""> <h5><span className="badge  badge-dark react-badge">React</span></h5></div>
                 <div className=""> <h5><span className="badge  badge-dark">Maps API</span></h5></div>
 
 
 
             </div>
+            <br/>
             <div className="row product-long-description">
                 <h2>Overview</h2>
                 <p>I wanted to create a map on piano based on user contributions, creating a CRUD application with user profiles, contributions and a login form. </p>

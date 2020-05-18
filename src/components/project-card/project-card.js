@@ -13,7 +13,7 @@ const ProjectCard = (props) =>{
                    </div>
                    <h4 className="technologies-used">{props.technologies}</h4>
                    <p className="project-description"> {props.description!=null? props.description : "This project does not have a description yet"}</p>
-                   <div class="row">
+                   <div class="row links">
                    {props.github!=null? <button type=" button " className="btn btn-dark project-link" ><a href={props.github}> Github</a> </button> : null}
                       
                        <button type=" button " className="btn btn-primary project-link" ><Link to={props.link}> Check out project</Link> </button>

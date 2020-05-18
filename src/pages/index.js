@@ -15,7 +15,7 @@ const indexPage = () =>{
                 <ProjectBanner title="Piano map" 
       description="A map of public pianos around the world based on user contributions"
       illustration={PianoMapIcon}  page="index" date="March 26, 2020"
-      link="projects/piano-map" github = "https://www.github.com/victoirebeaufils/pianomap"/>
+      link="./projects/piano-map" github = "https://www.github.com/victoirebeaufils/pianomap"/>
             <div className="container">
         <div className="row other-projects justify-content-md-center">
 <div className="col-lg-6 other-project-left"> 

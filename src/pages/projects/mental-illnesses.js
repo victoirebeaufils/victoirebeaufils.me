@@ -714,14 +714,12 @@ class MentalIllnesses extends Component {
                  <SEO title="Scientific interest in mental illnesses" />
       <ProjectBanner title="Scientific interest in mental illnesses" 
       description="I tried to depict the scientific interest in mental illnesses by retrieving data from the U.S National Library of medicine. I searched 36 databases for the selected queries that I think best cover the most prominent mental illnesses. "
-      illustration={mentalIllnessIcon}>
+      illustration={mentalIllnessIcon} status="Complete">
 
       </ProjectBanner>
       <div className="container">
       <br/>
           <hr/>
-          <br/>
-      <h2>Technologies</h2>
            <div className="row technologies">
            <div className=""> <h5><span className="badge  badge-dark">React</span></h5></div>
                <div className="">  <h5><span className="badge  badge-dark">Highcharts</span></h5>
@@ -731,6 +729,7 @@ class MentalIllnesses extends Component {
           
 
             </div>
+            <br/>
             <div className="row product-long-description">
                 <h2>Overview</h2>
             <p>

@@ -5,6 +5,7 @@ module.exports = {
       description:"This website showcases a few programming projects which I worked on paired with some of my fields of interest"
   },
   plugins: [
+      'gatsby-plugin-sass',
       'gatsby-plugin-react-helmet',
         
       {

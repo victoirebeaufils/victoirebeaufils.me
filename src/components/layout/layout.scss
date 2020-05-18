@@ -1,5 +1,33 @@
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700&display=swap');@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700&display=swap);
 
+$react : #1670be;
+$react-native: #08365e;
+$jsx : #241961;
+$mongo-db: #155208;
+$express:#727970;
+$node-js:#9a2424;
+
+.react-badge{
+  background-color: $react;
+}
+.express-badge{
+  background-color: $express;
+}
+.react-native-badge{
+  background-color: $react-native;
+}
+.jsx-badge{
+  background-color: $jsx;
+}
+.mongo-db-badge{
+  background-color: $mongo-db;
+}
+.node-js-badge{
+  background-color: $node-js;
+}
+.badge h5{
+  margin-bottom: 0 rem !important;
+}
 body{
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 400;

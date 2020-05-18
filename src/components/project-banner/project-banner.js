@@ -14,16 +14,19 @@ return(
         <div className="row ">
 
           
-                <h1 className="title">{props.title}</h1>
+                <h1 className="banner-title">{props.title}</h1>
         
             </div>
          
         <div className="row">
       
             <div className="product-short-description">
-                <h6 className="status">{props.status? props.status:null}</h6>
+             
             <h6>{props.date!=null?props.date:null}</h6>
-                <p>{props.description!=null? props.description : "This project does not have a description yet"}
+            <p className="status">{props.status? "Status: " + props.status :null}
+           </p>
+
+                <p class="description">{props.description!=null? props.description : "This project does not have a description yet"}
                   </p>
             </div>
         </div>

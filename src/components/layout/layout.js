@@ -3,7 +3,7 @@ import Header from '../header';
 import Footer from '../footer';
 import 'bootstrap/dist/css/bootstrap.css';
 import Popper from 'popper.js';
-import './layout.css';
+import './layout.scss';
 function Layout (props){
     return (
         <div>
