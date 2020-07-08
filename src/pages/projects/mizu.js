@@ -1,6 +1,6 @@
 import React from 'react';
 import Layout from '../../components/layout/layout'
-
+import ProjectBanner from '../../components/project-banner/project-banner'
 const Mizu = (props)=> {
 return(
 <Layout>
