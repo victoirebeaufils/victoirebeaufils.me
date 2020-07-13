@@ -47,12 +47,18 @@
   ],
   "license": "MIT",
   "scripts": {
-    "build": "env-cmd -f .env gatsby build",
+    "build": "env-cmd -f .env gatsby build npm-run-all build:css build:html",
     "develop": "env-cmd -f .env gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
+    "build:css": "node-sass src/site/_includes/css/main.scss > src/site/css/main.css",
+    "build:html": "eleventy",
+    "watch": "npm-run-all --parallel watch:css watch:html",
+    "watch:css": "node-sass --watch src/site/_includes/css/main.scss > src/site/css/main.css",
+    "watch:html": "eleventy --serve --port=8181",
+
   },
   "repository": {
     "type": "git",
