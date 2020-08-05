@@ -1,0 +1,193 @@
+[33mcommit a22585e4113b97036e7a7c83377181c9fa82f151[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31mvictoirebeaufils.me/master[m[33m)[m
+Author: Victoire Beaufils <victoire.beaufil@gmail.com>
+Date:   Wed Jul 22 23:24:57 2020 +0200
+
+    Added blog pages
+
+[33mcommit 1a5425d86f0bc0c31c7dbfa50bf420fc923a0b38[m
+Author: Victoire Beaufils <victoire.beaufil@gmail.com>
+Date:   Wed Jul 15 18:43:13 2020 +0200
+
+    fixed typo
+
+[33mcommit 85b098560814ae7e0b94fc00ed024c5e44ea1bf5[m
+Author: Victoire Beaufils <victoire.beaufil@gmail.com>
+Date:   Mon Jul 13 17:43:19 2020 +0200
+
+    Sass integration w Netlify
+
+[33mcommit 677ebfaaf632c226fcecdefee29952e1c4b5c6eb[m
+Author: Victoire Beaufils <victoire.beaufil@gmail.com>
+Date:   Mon Jul 13 17:41:30 2020 +0200
+
+    Added Mizu page
+
+[33mcommit dec442119750477a1a79febd4f16a52bbc5521c9[m
+Author: Victoire Beaufils <victoire.beaufil@gmail.com>
+Date:   Wed Jul 8 13:45:07 2020 +0200
+
+    Updated mizu page
+
+[33mcommit 8d7eb9f0bb0c75a12ff07407f1d363f453a038c2[m
+Author: Victoire Beaufils <victoire.beaufil@gmail.com>
+Date:   Mon May 18 22:27:31 2020 +0200
+
+    first commit
+
+[33mcommit a61fb2d5a7c56c3d8fc1fcf4c4b20a217f919378[m
+Author: Victoire Beaufils <victoire.beaufil@gmail.com>
+Date:   Mon May 18 22:20:27 2020 +0200
+
+    Changed 20-20-20 page
+
+[33mcommit 177bcfe53975f3a789b2605dda50c5c45cbddd1c[m
+Author: Victoire Beaufils <victoire.beaufil@gmail.com>
+Date:   Mon May 18 11:25:05 2020 +0200
+
+    Compressed pianomap images
+
+[33mcommit f2731f2cdc7f6ca28b318fea2e209a54f2639d70[m
+Author: Victoire Beaufils <victoire.beaufil@gmail.com>
+Date:   Mon May 18 11:22:12 2020 +0200
+
+    Modified project banner title size
+
+[33mcommit 500f786667ca7b68b43ac86dfba251ba1db04644[m
+Author: Victoire Beaufils <victoire.beaufil@gmail.com>
+Date:   Sun May 17 17:55:19 2020 +0200
+
+    Added pianomap mockups
+
+[33mcommit b0eab2ba4c4dc69de324bcd56dee3d252c588256[m
+Author: Victoire Beaufils <victoire.beaufil@gmail.com>
+Date:   Sat May 16 10:06:30 2020 +0200
+
+    Changed badges font size
+
+[33mcommit 7380acc7f3460a021792661b1b3aa352f31c4b0d[m
+Author: Victoire Beaufils <victoire.beaufil@gmail.com>
+Date:   Sat May 16 09:04:52 2020 +0200
+
+    Removed blog
+
+[33mcommit 9db7f8f468fa28258107d5aee5b39f3eee22ee80[m
+Author: Victoire Beaufils <victoire.beaufil@gmail.com>
+Date:   Sat May 16 08:44:53 2020 +0200
+
+    Updated resume
+
+[33mcommit 1d1734ba9a75a72a30a355ac5aa2583e9f8324d6[m
+Author: Victoire Beaufils <victoire.beaufil@gmail.com>
+Date:   Sat May 16 08:03:24 2020 +0200
+
+    updated footer
+
+[33mcommit 39f3f5c4930f0d54062f4c299ce4b2641c4751b3[m
+Author: Victoire Beaufils <victoire.beaufil@gmail.com>
+Date:   Sun May 3 22:28:09 2020 -0500
+
+    Updated website
+
+[33mcommit 4832df06204180fa34dad66bc75ba54c660485f9[m
+Author: Victoire Beaufils <victoire.beaufil@gmail.com>
+Date:   Thu Jan 9 10:52:14 2020 +0100
+
+    Added images
+
+[33mcommit f2b9b520ecdb68332aa01c9085f272196a70efc1[m
+Author: Victoire Beaufils <victoire.beaufil@gmail.com>
+Date:   Thu Jan 9 10:42:16 2020 +0100
+
+    Edited project pages
+
+[33mcommit 6500fbbcbc0385b685e1e81a9d20d02c3879af51[m
+Author: Victoire Beaufils <victoire.beaufil@gmail.com>
+Date:   Wed Dec 18 18:24:49 2019 +0100
+
+    Modified 404 page
+
+[33mcommit 34ee628d8f1c46ce364e0e7081ec58a308bd3637[m
+Author: Victoire Beaufils <victoire.beaufil@gmail.com>
+Date:   Tue Dec 10 13:37:27 2019 +0100
+
+    Added projects to website
+
+[33mcommit 164f19e515bdd95869fcef3e1ea5cb3d61ef3cdf[m
+Author: Victoire Beaufils <victoire.beaufil@gmail.com>
+Date:   Mon Dec 9 11:58:52 2019 +0100
+
+    Fixed Highcharts bug
+
+[33mcommit 891d8514ed7bb650584c24ed5a5d3000bd8c8610[m
+Author: Victoire Beaufils <victoire.beaufil@gmail.com>
+Date:   Sat Dec 7 13:52:58 2019 +0100
+
+    Fixed highcharts build error
+
+[33mcommit df2ca13b1a580f652eedc9045b8aa76317357834[m
+Author: Victoire Beaufils <victoire.beaufil@gmail.com>
+Date:   Fri Nov 22 20:51:27 2019 +0100
+
+    Wesbite is live
+
+[33mcommit 0c37dcd786e35e6aad95f2c29f4dbe4e29e2801a[m
+Author: Victoire Beaufils <victoire.beaufil@gmail.com>
+Date:   Mon Nov 4 13:07:14 2019 +0100
+
+    Added bootstrap bundle
+
+[33mcommit 8ab47dd871660be32234751384ae742ec280d862[m
+Author: Victoire Beaufils <victoire.beaufil@gmail.com>
+Date:   Sun Nov 3 10:47:17 2019 +0100
+
+    Added popper.js
+
+[33mcommit 134c0ed370b4a226eab108d3981ad3c16ef010fa[m
+Author: Victoire Beaufils <victoire.beaufil@gmail.com>
+Date:   Sat Nov 2 17:43:37 2019 +0100
+
+    Removed jquery and popper imports
+
+[33mcommit 0ba23aeade8b62273b4e915ccc4686ca63c6ce87[m
+Author: Victoire Beaufils <victoire.beaufil@gmail.com>
+Date:   Sat Nov 2 17:31:32 2019 +0100
+
+    Gatsby website
+
+[33mcommit 3c2d68ff618ac3d32ae453b10fa379aa6a1af549[m
+Merge: 492c6eb 4d5013a
+Author: Victoire Beaufils <victoire.beaufil@gmail.com>
+Date:   Sat Nov 2 16:56:50 2019 +0100
+
+    Gatsby website
+
+[33mcommit 492c6eb82ff0e1ec7259bb16fa6fd0591a72dec1[m
+Merge: 366217b aaf3463
+Author: Victoire Beaufils <victoire.beaufil@gmail.com>
+Date:   Sat Nov 2 15:06:45 2019 +0100
+
+    Gatsby Website
+
+[33mcommit 4d5013a552ef209107f5b4ed1276122c1be6ad07[m
+Author: Victoire Beaufils <victoire.beaufil@gmail.com>
+Date:   Sat Nov 2 15:05:54 2019 +0100
+
+    Delete README.md
+
+[33mcommit 366217b5ade3fcd29a441c5d5c748eee5abe24a7[m
+Author: Victoire Beaufils <victoire.beaufil@gmail.com>
+Date:   Sat Nov 2 15:00:06 2019 +0100
+
+    Gatsby site
+
+[33mcommit 853d4514e5ded4793634f51994df715bd3a60575[m
+Author: Victoire Beaufils <victoire.beaufil@gmail.com>
+Date:   Sun Oct 27 12:50:35 2019 +0100
+
+    Initial commit from gatsby: (https://github.com/gatsbyjs/gatsby-starter-default.git)
+
+[33mcommit aaf3463242aaac7b40fc0c68762e23fa24c325dc[m
+Author: Victoire Beaufils <victoire.beaufil@gmail.com>
+Date:   Sat Oct 12 19:41:09 2019 +0200
+
+    Initial commit

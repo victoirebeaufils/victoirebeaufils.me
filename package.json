@@ -1,9 +1,15 @@
 {
   "dependencies": {
     "gatsby": "2.24.9",
-    "gatsby-cli": "^2.12.65",
+    "gatsby-cli": "^2.12.68",
+    "gatsby-plugin-manifest": "^2.4.21",
+    "gatsby-plugin-react-helmet": "^3.3.10",
+    "gatsby-plugin-sass": "^2.3.12",
+    "gatsby-plugin-sharp": "^2.6.24",
     "gatsby-source-filesystem": "^2.3.22",
     "gatsby-transformer-remark": "^2.8.26",
+    "gatsby-transformer-sharp": "^2.5.12",
+    "react-helmet": "^6.1.0",
     "react-i18next": "^11.7.0"
   },
   "scripts": {
@@ -11,5 +17,4 @@
     "build": "gatsby build",
     "serve": "gatsby serve"
   }
-  
 }
