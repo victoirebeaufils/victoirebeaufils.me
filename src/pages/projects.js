@@ -24,7 +24,7 @@ const ProjectPage = () => (
                 technologies="MongoDB / Express / Node / React / Maps API"
                 description="A map of public pianos around the world based on user contributions" 
                 illustration={PianoMapIcon}
-                link ="projects/piano-map"
+                link ="piano-map"
                 github = "https://www.github.com/victoirebeaufils/pianomap"/>
                    
                 </div>

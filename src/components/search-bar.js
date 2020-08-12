@@ -1,6 +1,5 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {  faSearch } from '@fortawesome/fontawesome-free-solid'
 const SearchBar = () =>{
     return (
         <div className="input-group mb-3 search-bar">
