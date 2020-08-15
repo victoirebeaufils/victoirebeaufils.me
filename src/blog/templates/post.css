@@ -1,0 +1,29 @@
+h1{
+}
+.highlight-1 {
+    background-color: #FFE9CC;
+    padding:3px;
+    padding-left: 6px;
+    padding-right: 6px;
+    border-radius: 5px;
+    color:#A88B64;
+
+}
+.highlight-2 {
+    background-color: #EBD3F4;
+    padding:3px;
+    padding-left: 6px;
+    padding-right: 6px;
+    border-radius: 5px;
+    color:#A47DB3;
+
+}
+.highlight-3 {
+    background-color: #96B9F2;
+    padding:3px;
+    padding-left: 6px;
+    padding-right: 6px;
+    border-radius: 5px;
+    color:#5372A6;
+
+}

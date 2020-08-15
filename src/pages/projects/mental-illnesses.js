@@ -6,7 +6,7 @@ import Chart from '../../components/chart';
 import ProjectBanner from '../../components/project-banner/project-banner'
 import mentalIllnessIcon from "../../images/mentalillness-icon.jpg";
 import SEO from "../../components/seo"
-
+import databaseIcon from "../../images/search-by-database.png";
 class MentalIllnesses extends Component {
     render() { 
         const therapies ={
@@ -744,6 +744,7 @@ product to help me with illnesses I hadn't heard of.
             <p>
             I found the <strong>Entrez Programming Utilities (E-utilities) API</strong> from <strong>NCBI</strong> and thought it could help me with retrieving the number of papers and journal articles related to my query. At first, it seemed as though there was little documentation to read from, so I gave up using an API in favor of the drastically longer but less complicated option, which was to perform manual queries and write the numbers down in a spreadsheet.
             </p>
+            <img className="img-database img-fluid" src={databaseIcon}alt="project image"></img>
             <p>Little did I know, there was an API tool that could have helped me make the process automatic, had I dug a little deeper.
 </p>
 <p>I then looked for a data visualization tool to work across all platforms. I needed it to be personalized, and I settled on <strong>D3.js</strong> as I had already heard of it and it promised a great deal of artistic freedom. Back then, I didn’t know that would also mean a lot had to be written from scratch. 
@@ -832,7 +833,7 @@ product to help me with illnesses I hadn't heard of.
 </div>
 <br/>
 
-<p>There were some parts of this scientific publication analysis that remained unclear. For example, the number of publication with the keyword "Pica" might not accurately represent the number of publications related to the disorder, taking into account the publications in the Proteins and Genomes database  </p>
+<p>There were some parts of this scientific publication analysis that remained unclear. For example, the number of publication with the keyword "Pica" might not accurately represent the number of publications related to the disorder, taking into account the publications in the Proteins and Genomes database.  </p>
 <p>In addition, it isn't clear whether the search engine counts a document as a result if all of the expression or part of it is in the document.</p>
 <p>While it is impossible to accurately tell whether a mental disorder is being studied or treated as it's often a bit of both, I wanted to look at the number of publications for medical treatments.</p> 
    <p>Here, the keyword "antidepressant" returned the largest amount of publications. In comparison, depression was the disorder with the most results, followed by schizophrenia and bipolar disorder.
