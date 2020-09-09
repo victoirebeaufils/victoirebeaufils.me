@@ -4,6 +4,7 @@ import Footer from '../footer';
 import 'bootstrap/dist/css/bootstrap.css';
 import Popper from 'popper.js';
 import './layout.scss';
+import './default.css'
 function Layout (props){
     return (
         <div>

@@ -9,8 +9,9 @@ const PostLink = ({ post }) => (
       </Link>
       <i style={{color: "grey"}}>{post.frontmatter.date}</i>
       <p>
-      {post.frontmatter.description}
-            </p>
+      {post.frontmatter.description}           </p>
+      <Img sizes ={post.frontmatter.featuredImage.childImageSharp.sizes}/>
+ 
       
     </div>
   )
