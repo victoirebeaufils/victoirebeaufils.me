@@ -6,7 +6,7 @@ import ProjectBanner from "../../components/project-banner/project-banner"
 
 const DBToolPage = () => (
   <Layout>
-  {  <ProjectBanner title="DBTool" github="https://github.com/victoirebeaufils/dbtoolral Therapy (DBT)"
+  {  <ProjectBanner title="DBTool" github="https://github.com/victoirebeaufils/dbtool" description= "Tool for Dialectic Behavioral Therapy (DBT)"
   status="Incomplete">
 
     </ProjectBanner>
