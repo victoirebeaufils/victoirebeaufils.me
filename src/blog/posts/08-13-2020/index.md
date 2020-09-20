@@ -3,7 +3,7 @@ path: '/second-post/'
 date: "2020-08-13"
 title: '#2 hey'
 description: "hiiii"
-featuredImage: './image.jpg'
+featuredImage: './banner.png'
 ---
 # Markdown test
 

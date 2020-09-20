@@ -12,10 +12,17 @@ module.exports = {
       {
           resolve: 'gatsby-source-filesystem',
           options: {
-              name: 'bloc',
+              name: 'blog',
               path: `${__dirname}/src/blog`
           }
       },
+        {
+        resolve: 'gatsby-source-filesystem',
+        options: {
+            name: 'images',
+            path: `${__dirname}/src/images/blog`
+        }
+    },
       'gatsby-plugin-sharp',
       'gatsby-transformer-sharp',
       {

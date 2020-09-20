@@ -5,13 +5,3 @@ title: '#1 Dribble dashboard: Flexbox and Javascript powered tabs'
 description: "hiiii"
 featuredImage: './banner.png'
 ---
-# Markdown test
-
-## Hi
-
-I'm trying to implement markdown for my <span class="highlight-1">**website**</span>
-
-![image.jpg](./image.jpg)
-
-[ ]  hi
-[ ]  hi again
