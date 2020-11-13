@@ -6,7 +6,7 @@ import Chart from '../../components/chart';
 import ProjectBanner from '../../components/project-banner/project-banner'
 import mentalIllnessIcon from "../../images/mentalillness-icon.jpg";
 import SEO from "../../components/seo"
-import databaseIcon from "../../images/search-by-database.png";
+import databaseIcon from "../../images/database.png";
 class MentalIllnesses extends Component {
     render() { 
         const therapies ={
