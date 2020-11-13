@@ -1,30 +1,32 @@
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700&display=swap);
 
-$react : #1670be;
-$react-native: #08365e;
-$jsx : #241961;
-$mongo-db: #155208;
-$express:#727970;
-$node-js:#9a2424;
+:root {
+  --react : #1670be;
+--react-native: #08365e;
+--jsx : #241961;
+--mongo-db: #155208;
+--express:#727970;
+--node-js:#9a2424;
+}
 
 .react-badge{
-  background-color: $react;
+  background-color: var(--react);
 }
 .express-badge{
-  background-color: $express;
+  background-color: var(--express);
 }
 .react-native-badge{
-  background-color: $react-native;
+  background-color: var(--react-native);
 }
 .jsx-badge{
-  background-color: $jsx;
+  background-color: var(--jsx);
 }
 .mongo-db-badge{
-  background-color: $mongo-db;
+  background-color: var(--mongo-db);
 }
 .node-js-badge{
-  background-color: $node-js;
-}
+  background-color: var(--node-js);
+}*/
 .badge h5{
   margin-bottom: 0 rem !important;
 }
