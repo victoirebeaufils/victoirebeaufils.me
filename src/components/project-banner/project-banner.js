@@ -35,6 +35,7 @@ return(
                       
                       
                 {props.page!=null? (props.page==="index"? <button type=" button " className="btn btn-primary project-link" ><Link to={props.link}> Check out project</Link> </button>: null) :null}
+                {props.website!=null? <button type=" button " className="btn btn-primary project-link" ><a href={props.website}> Website</a></button>: null}
                 </div>
     </div>
 

@@ -1,31 +1,27 @@
+
 import React from "react"
 
 import Layout from "../../components/layout/layout"
 import SEO from "../../components/seo"
-import pianoMapIcon from "../../images/pianomap-icon.jpg";
 import ProjectBanner from "../../components/project-banner/project-banner"
-import mockup1 from '../../images/pianomap/mockup1.png'
-import mockup2 from '../../images/pianomap/mockup2.png'
-import mockup3 from '../../images/pianomap/mockup3.png'
-import mockup4 from '../../images/pianomap/mockup4.png'
+import globalVisionIcon from "../../images/globalVision-icon.jpg"
 
-const PianoMapPage = () => (
+const GlobalVisionPage = () => (
     <Layout>
-        <ProjectBanner title="Piano map" github="https://www.github.com/victoirebeaufils/pianomap"
-            description="A map of public pianos around the world based on user contributions" illustration={pianoMapIcon}
-            status="Work in progress"
-            date="Feb 27, 2021">
+        <ProjectBanner title="Global Vision" github="https://github.com/victoirebeaufils/globalVision"
+            description="A 3D map representation of water body temperatures as measured by some of the Copernicus sentinels" illustration={globalVisionIcon}
+            status="Complete"
+            date="Jan 24, 2021"
+            website="https://stormy-sands-61487.herokuapp.com/index.html">
 
         </ProjectBanner>
         <div className="container">
         <br/>
           <hr/>
             <div className="row technologies">
-                <div className=""> <h5><span className="badge  badge-dark mongo-db-badge">MongoDB</span></h5> </div>
-                <div className=""> <h5><span className="badge  badge-dark express-badge">Express</span></h5></div>
-                <div className=""> <h5><span className="badge  badge-dark node-js-badge">Node.js</span></h5></div>
-                <div className=""> <h5><span className="badge  badge-dark react-badge">React</span></h5></div>
-                <div className=""> <h5><span className="badge  badge-dark">Maps API</span></h5></div>
+                <div className=""> <h5><span className="badge badge-dark">Flask</span></h5></div>
+                <div className=""> <h5><span className="badge  badge-dark ">ArcGIS</span></h5></div>
+                <div className=""> <h5><span className="badge  badge-dark">CDS API</span></h5></div>
 
 
 
@@ -44,24 +40,6 @@ const PianoMapPage = () => (
                         <div class="title">I made a Mockup of the website with Adobe XD</div>
                         <div class="body">
 
-                            <div class="img-container">
-                                <div class="row">
-                                    <div class="col-lg-6">
-                                    <img src={mockup1} class="img-responsive "></img>
-                                    </div>
-                                    <div class="col-lg-6">
-                                <img src={mockup2} class="img-responsive col-lg-6"></img>
-                                </div>
-                                </div>
-                                <div class="row">
-                                <div class="col-lg-6">
-                                    <img src={mockup3} class="img-responsive col"></img>
-                              </div>
-                              <div class="col-lg-6">
-                                    <img src={mockup4} class="img-responsive col"></img>
-                              </div>
-                                </div>
-                            </div>
 
 
                         </div>
@@ -89,4 +67,5 @@ const PianoMapPage = () => (
 
     </Layout>)
 
-export default PianoMapPage;
+export default GlobalVisionPage;
+

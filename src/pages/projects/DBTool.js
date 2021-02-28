@@ -3,11 +3,11 @@ import React from "react"
 import Layout from "../../components/layout/layout"
 import SEO from "../../components/seo"
 import ProjectBanner from "../../components/project-banner/project-banner"
-
+import DBToolIcon from "../../images/DBTool-icon.jpg"
 const DBToolPage = () => (
   <Layout>
   {  <ProjectBanner title="DBTool" github="https://github.com/victoirebeaufils/dbtool" description= "Tool for Dialectic Behavioral Therapy (DBT)"
-  status="Incomplete">
+  status="Incomplete" illustration={DBToolIcon}>
 
     </ProjectBanner>
 }    <div className="container">
