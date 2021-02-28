@@ -1,4 +1,5 @@
 import React from "react";
+import {Link } from 'gatsby'
 import Layout from '../components/layout/layout';
 import ProjectBanner from '../components/project-banner/project-banner'
 import ProjectCard from '../components/project-card/project-card'
@@ -7,7 +8,14 @@ import SEO from "../components/seo"
 import mentalIllnessIcon from "../images/mentalillness-icon.jpg";
 import Icon202020 from "../images/20-20-20-icon.jpg";
 import PianoMapIcon from "../images/pianomap-icon.jpg";
+import globalVisionIcon from "../images/globalVision-icon.jpg"
 const indexPage = () =>{
+    const globalVision = 
+    <ProjectCard title ="Global vision" 
+  technologies="Flask / CDS API (Copernicus data) / ArcGIS"
+  description="A 3D map representation of water body temperatures as measured by some of the Copernicus sentinels" 
+  link ="/projects/GlobalVision" 
+  illustration={globalVisionIcon}/>
     return(
 
            <Layout>
@@ -19,10 +27,7 @@ const indexPage = () =>{
             <div className="container">
         <div className="row other-projects justify-content-md-center">
 <div className="col-lg-6 other-project-left"> 
-<ProjectCard title ="20-20-20" technologies="React Native / JSX"
-                    description = "A React Native app to reduce eye strain following the 20-20-20 rule : Every 20 minutes, look 20 feet in the distance for 20 seconds"
-                    link ="projects/20-20-20" github = "https://www.github.com/victoirebeaufils/20-20-20" illustration={Icon202020}/>
-
+{globalVision}
 </div>
 
 <div className="col-lg-6 other-project-right">
@@ -40,7 +45,11 @@ const indexPage = () =>{
 
 </div>
          
-         </div>   </Layout>
+         </div> 
+            <div class="d-flex justify-content-center see-more">
+            <button type="button" class=" project-link btn btn-hollow"><Link to = "/projects" >See more projects</Link></button>
+            </div>
+           </Layout>
             
         
     )

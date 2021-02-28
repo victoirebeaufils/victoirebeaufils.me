@@ -191,6 +191,15 @@ ul.timeline > li:before {
   padding-left: 16px;
   padding-right: 16px;
 }
+.btn-hollow{
+  border:1px solid #7156da;
+  border-radius: 20px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.btn-hollow > *{ 
+  color: #7156da !important;
+}
 .btn-dark{
   border-radius: 20px;
 }
@@ -224,4 +233,9 @@ margin-right:5px;
 .img-database{
   margin-top: 10px;
   margin-bottom: 15px;
+}
+
+
+.see-more{
+  margin-top: 30px;
 }

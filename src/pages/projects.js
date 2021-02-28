@@ -66,17 +66,20 @@ illustration={mentalIllnessIcon}/>
 </ul>
   */} <div className="row other-projects justify-content-md-center">
                 <div className="col-lg-6 other-project-left">
-             {pianomap}
+                {globalVision}
+            
                 </div>
                 <div className="col-lg-6 other-project-right">
-                {twentyTwentyTwenty}
+                {pianomap}
+               
 </div>
                   <div className="row other-projects justify-content-md-center">
                   <div className="col-lg-6 other-project-left">
-            {mentalIllnesses}
+                  {twentyTwentyTwenty}
+            
                 </div>
                 <div className="col-lg-6 col-sm-12 other-project-right">
-                  {globalVision}
+                {mentalIllnesses}
                {/* <ProjectCard 
                 title ="20-20-20" 
                 technologies="React Native / JSX"

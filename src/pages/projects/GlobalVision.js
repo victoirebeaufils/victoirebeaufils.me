@@ -29,7 +29,7 @@ const GlobalVisionPage = () => (
             <br/>
             <div className="row product-long-description">
                 <h2>Overview</h2>
-                <p>I wanted to create a map on piano based on user contributions, creating a CRUD application with user profiles, contributions and a login form. </p>
+                <p>Me and <a href="https://github.com/SamuelAtPurdue" >Sam Hild </a> wanted to create some water measurement tool based on satellite data to compete in the Boilermake hackathon for the best eco hack presented by Eco Lab. </p>
 
                 <div class="step">
                     <div>
@@ -39,21 +39,6 @@ const GlobalVisionPage = () => (
                     <div>
                         <div class="title">I made a Mockup of the website with Adobe XD</div>
                         <div class="body">
-
-
-
-                        </div>
-                    </div>
-                    </div>
-                    <div class="step">
-                        <div>
-                            <div class="circle">2</div>
-                            <div class="line"></div>
-                        </div>
-                        <div>
-                        <div class="title"> What's next? </div>
-                        <div class="body">
-                            <h6> I started working on the backend (MERN Stack)</h6>
                             <a> <input type="checkbox" class="form-check-input" checked ></input> Created routes, Middleware and Models for places and users <br/></a>
                             <a> <input type="checkbox" class="form-check-input" checked></input> Created the frontend for pages above and extra pages for user profiles<br/> </a>
                             <a> <input type="checkbox" class="form-check-input" checked></input> Finished the authentification system using jwt (Jan 26, 2021)<br/></a>

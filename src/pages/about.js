@@ -20,7 +20,7 @@ const AboutPage = () => (
                         <a 
                         class="link"
                         rel="noopener noreferrer"
-                        href={withPrefix('/resume_may_2020_internship.pdf')}
+                        href={withPrefix('/resume_feb_2021.pdf')}
                         target="_blank">Resume</a> | 
                         <a  class="link" href="https://www.linkedin.com/in/victoirebeaufils/"> Linkedin</a> |
                         <a  class="link" href="https://www.github.com/victoirebeaufils"> Github</a> | 
