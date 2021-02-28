@@ -9,15 +9,23 @@ import mentalIllnessIcon from "../images/mentalillness-icon.jpg";
 import Icon202020 from "../images/20-20-20-icon.jpg";
 import PianoMapIcon from '../images/pianomap-icon.jpg';
 import globalVisionIcon from '../images/globalVision-icon.jpg'
+import DBToolIcon from "../images/DBTool-icon.jpg"
 export default function ProjectPage () {
 
+const DBTool =   <ProjectCard title ="DBTool" 
+technologies="React Native"
+description="Created an app to serve as a tool and a library of resources for Dialectic Behavioral Therapy (DBT)" 
+illustration={DBToolIcon}
+link="/projects/DBTool"
+github="https://github.com/victoirebeaufils/dbtool"/>
 
   const globalVision = 
   <ProjectCard title ="Global vision" 
 technologies="Flask / CDS API (Copernicus data) / ArcGIS"
 description="A 3D map representation of water body temperatures as measured by some of the Copernicus sentinels" 
 link ="/projects/GlobalVision" 
-illustration={globalVisionIcon}/>
+illustration={globalVisionIcon}
+github="https://github.com/victoirebeaufils/globalVision"/>
 
   const pianomap = <ProjectCard title ="Piano map" 
   technologies="MongoDB / Express / Node / React / Maps API"
@@ -75,11 +83,13 @@ illustration={mentalIllnessIcon}/>
 </div>
                   <div className="row other-projects justify-content-md-center">
                   <div className="col-lg-6 other-project-left">
-                  {twentyTwentyTwenty}
+                  {DBTool}
+                 
             
                 </div>
                 <div className="col-lg-6 col-sm-12 other-project-right">
-                {mentalIllnesses}
+                {twentyTwentyTwenty}
+             
                {/* <ProjectCard 
                 title ="20-20-20" 
                 technologies="React Native / JSX"
@@ -88,6 +98,14 @@ illustration={mentalIllnessIcon}/>
                 illustration={Icon202020}
                   link ="projects/piano-map" />*/}
                   </div>
+                  </div>
+                  <div className="row other-projects justify-content-md-center">
+                  <div className="col-lg-6 other-project-left">
+                  {mentalIllnesses}
+                    </div>
+                    <div className="col-lg-6 col-sm-12 other-project-right">
+                    
+                    </div>
                   </div>
                   </div>
 

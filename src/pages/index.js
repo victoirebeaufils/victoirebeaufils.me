@@ -13,16 +13,18 @@ const indexPage = () =>{
     const globalVision = 
     <ProjectCard title ="Global vision" 
   technologies="Flask / CDS API (Copernicus data) / ArcGIS"
+  date="Jan 24, 2021"
   description="A 3D map representation of water body temperatures as measured by some of the Copernicus sentinels" 
   link ="/projects/GlobalVision" 
-  illustration={globalVisionIcon}/>
+  illustration={globalVisionIcon}
+  github="https://github.com/victoirebeaufils/globalVision"/>
     return(
 
            <Layout>
                 <SEO title="Home" />
                 <ProjectBanner title="Piano map" 
       description="A map of public pianos around the world based on user contributions"
-      illustration={PianoMapIcon}  page="index" date="March 26, 2020"
+      illustration={PianoMapIcon}  page="index" date="Feb 27, 2021"
       link="projects/piano-map" github = "https://www.github.com/victoirebeaufils/pianomap"/>
             <div className="container">
         <div className="row other-projects justify-content-md-center">
