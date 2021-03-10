@@ -31,24 +31,18 @@ const GlobalVisionPage = () => (
                 <h2>Overview</h2>
                 <p>Me and <a href="https://github.com/SamuelAtPurdue" >Sam Hild </a> wanted to create some water measurement tool based on satellite data to compete in the Boilermake hackathon for the best eco hack presented by Eco Lab. </p>
 
-                <div class="step">
-                    <div>
-                        <div class="circle">1</div>
-                        <div class="line"></div>
-                    </div>
-                    <div>
-                        <div class="title">I made a Mockup of the website with Adobe XD</div>
+                
+                    
                         <div class="body">
-                            <a> <input type="checkbox" class="form-check-input" checked ></input> Created routes, Middleware and Models for places and users <br/></a>
-                            <a> <input type="checkbox" class="form-check-input" checked></input> Created the frontend for pages above and extra pages for user profiles<br/> </a>
-                            <a> <input type="checkbox" class="form-check-input" checked></input> Finished the authentification system using jwt (Jan 26, 2021)<br/></a>
-                            <a> <input type="checkbox" class="form-check-input"></input> Connected piano entered by the user to location database (ongoing)<br/></a>
+                            <a> <input type="checkbox" class="form-check-input" checked ></input> Figured out how arcGIS worked, created graphics layer<br/></a>
+                            <a> <input type="checkbox" class="form-check-input" checked></input> Imported Copernicus sentinel dataset using the CDS API <br/> </a>
+                            <a> <input type="checkbox" class="form-check-input" checked></input> Created array of location objects and placed them on the map, changing the color according to the temperature<br/></a>
+                            <a> <input type="checkbox" class="form-check-input"></input> Import multiple dataset and have a timeline slider to visualize water bodies temperature changes<br/></a>
                             </div>
                         </div>
                     </div>
 
-                </div>
-            </div>
+    
 
     </Layout>)
 
