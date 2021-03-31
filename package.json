@@ -27,7 +27,8 @@
     "react-dom": "^16.13.1",
     "react-helmet": "^6.1.0",
     "react-i18next": "^11.7.0",
-    "react-icons": "^3.10.0"
+    "react-icons": "^3.10.0",
+    "react-router-dom": "^5.2.0"
   },
   "scripts": {
     "build": "CI= env-cmd -f .env gatsby build npm-run-all build:css build:html",
