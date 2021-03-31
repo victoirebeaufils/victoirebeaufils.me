@@ -16,6 +16,8 @@ const AboutPage = () => (
                         <p>I'm an undergraduate student in Computer Science at Purdue University. My interests withing the field of Computer Science are Education, Psychology, Accessibility and Computational neuroscience.
                         </p>
                         <p>I like climbing, photography, baking and making music.</p>
+                        <p> I am currently working on Purdue's freshman-only hackathon's website.</p>
+                        <p> In my free time, I am involved with <a class="link" href="https://colorsofconnection.org/">Colors of Connection</a> as I help them translate mission-statement documents. I am also the PR Director for the <a class="link" href="https://purduewebdev.club/home">Purdue Web Dev Club</a>.</p>
                         <p>
                         <a 
                         class="link"
@@ -27,7 +29,7 @@ const AboutPage = () => (
                         <a  class="link" href="mailto:vbeaufil@purdue.edu"> vbeaufil@purdue.edu</a></p>
                 </div>
                 <div className=" col-lg-3 justify-content-center align-self-center">
-                    <img className="img-fluid icon" src = {picture} alt="The picture of the website creator"/>
+                    <img className="img-fluid icon" src = {picture} alt="Victoire Beaufils"/>
             </div>
             </div>
 
