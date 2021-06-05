@@ -7,13 +7,13 @@ const Footer = () =>{
         <div className="row">
             <div className="col">
                 <Link to ="/projects/"><b>Latest projects</b></Link><br/>
-                <Link to="./projects/piano-map" >Pianomap</Link><br/>
+                <Link to="/projects/piano-map" >Pianomap</Link><br/>
                 <Link to="/projects/GlobalVision" >Global Vision</Link><br/>
                 <Link to="/projects/DBTool" >DBTool</Link><br/>
-                <Link to="/projects/mental-illnesses-d3" >Scientific interest in mental illnesses</Link>
+                <Link to="/projects/mental-illnesses" >Scientific interest in mental illnesses</Link>
             </div>
             <div className="col">
-                <a href="about.html"><b>Contact</b></a>
+                <a href="/about/"><b>Contact</b></a>
                 <br/>
                 <a>Victoire Beaufils<br/>vbeaufil@purdue.edu</a>
             </div>
