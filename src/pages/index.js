@@ -9,6 +9,7 @@ import mentalIllnessIcon from "../images/mentalillness-icon.jpg";
 import Icon202020 from "../images/20-20-20-icon.jpg";
 import PianoMapIcon from "../images/pianomap-icon.jpg";
 import globalVisionIcon from "../images/globalVision-icon.jpg"
+
 const indexPage = () =>{
     const globalVision = 
     <ProjectCard title ="Global vision" 
@@ -19,7 +20,6 @@ const indexPage = () =>{
   illustration={globalVisionIcon}
   github="https://github.com/victoirebeaufils/globalVision"/>
     return(
-
            <Layout>
                 <SEO title="Home" />
                 <ProjectBanner title="Piano map" 
@@ -52,7 +52,7 @@ const indexPage = () =>{
             <button type="button" class=" project-link btn btn-hollow"><Link to = "/projects" >See more projects</Link></button>
             </div>
            </Layout>
-            
+
         
     )
 }

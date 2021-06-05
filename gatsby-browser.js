@@ -8,3 +8,9 @@
 import 'jquery/dist/jquery.min.js'
 import 'popper.js/dist/popper.min'
 import 'bootstrap/dist/js/bootstrap.min.js'
+
+import React from 'react';
+import {AnimatePresence} from 'framer-motion';
+export const wrapPageElement = ({element}) => (
+  <AnimatePresence exitBeforeEnter>{element}</AnimatePresence>
+);

@@ -5,15 +5,49 @@ import 'bootstrap/dist/css/bootstrap.css';
 import Popper from 'popper.js';
 import './layout.css';
 import './default.css'
+import { motion } from "framer-motion"
+
+const content = {
+    animate: {
+      transition: { staggerChildren: 0.1, delayChildren: 0.2 },
+    },
+  };
+
+  const header = {
+    initial: { y: -20, opacity: 0 },
+    animate: {
+      y: 0,
+      opacity: 1,
+      transition: {
+        duration: 1,
+        ease: [0.6, -0.05, 0.01, 0.99],
+      },
+    },
+  };
+
+
+
 function Layout (props){
+
+
     return (
-        <div>
+        
+      <motion.div
+      initial="initial"
+      animate="animate"
+      variants={content}
+      className="space-y-12"
+    >
+            <motion.section variants={header}>
             <Header />
-            <div className="container">
+            </motion.section>
+            <motion.section variants={header}className="container">
             {props.children}
-            </div>
+            </motion.section>
+            <motion.section variants={header}>
             <Footer/>
-            </div>
+            </motion.section>
+            </motion.div>
        
     )
 }
