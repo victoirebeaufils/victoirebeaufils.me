@@ -4,7 +4,7 @@ import Layout from "../components/layout/layout"
 import SEO from "../components/seo"
 import '../components/project-card/project-card.css'
 import ProjectCard from '../components/project-card/project-card'
-import SearchBar from '../components/search-bar'
+import SearchBar from '../components/search-bar/search-bar'
 import mentalIllnessIcon from "../images/mentalillness-icon.jpg";
 import Icon202020 from "../images/20-20-20-icon.jpg";
 import PianoMapIcon from '../images/pianomap-icon.jpg';
@@ -73,23 +73,25 @@ illustration={mentalIllnessIcon}/>
   </li>
 </ul>
   */} <div className="row other-projects justify-content-md-center">
-                <div className="col-lg-6 other-project-left">
+                <div className="col-lg-4 other-project-left">
                 {globalVision}
             
                 </div>
-                <div className="col-lg-6 other-project-right">
+                <div className="col-lg-4 other-project-right">
                 {pianomap}
-               
-</div>
-                  <div className="row other-projects justify-content-md-center">
-                  <div className="col-lg-6 other-project-left">
-                  {DBTool}
-                 
-            
                 </div>
-                <div className="col-lg-6 col-sm-12 other-project-right">
+                <div className="col-lg-4 other-project-left">
+                  {DBTool}</div>
+</div>
+                  <div className="row other-projects ">
+                 
+                <div className="col-lg-4 col-sm-12 other-project-left">
                 {twentyTwentyTwenty}
-             
+             </div>
+             <div className="col-lg-4 other-project-left">
+                  {mentalIllnesses}
+                    </div>
+                    </div>
                {/* <ProjectCard 
                 title ="20-20-20" 
                 technologies="React Native / JSX"
@@ -97,17 +99,9 @@ illustration={mentalIllnessIcon}/>
                 github = "https://www.github.com/victoirebeaufils/20-20-20" 
                 illustration={Icon202020}
                   link ="projects/piano-map" />*/}
-                  </div>
-                  </div>
-                  <div className="row other-projects justify-content-md-center">
-                  <div className="col-lg-6 other-project-left">
-                  {mentalIllnesses}
-                    </div>
-                    <div className="col-lg-6 col-sm-12 other-project-right">
-                    
-                    </div>
-                  </div>
-                  </div>
+
+          
+                
 
     </div>
   </Layout>

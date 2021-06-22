@@ -9,7 +9,7 @@ import { motion } from "framer-motion"
 
 const content = {
     animate: {
-      transition: { staggerChildren: 0.1, delayChildren: 0.2 },
+      transition: { staggerChildren: 0.2, delayChildren: 0.2 },
     },
   };
 
@@ -25,6 +25,8 @@ const content = {
     },
   };
 
+  
+
 
 
 function Layout (props){
@@ -37,6 +39,7 @@ function Layout (props){
       animate="animate"
       variants={content}
       className="space-y-12"
+      exit={{ opacity: 0 }}
     >
             <motion.section variants={header}>
             <Header />
