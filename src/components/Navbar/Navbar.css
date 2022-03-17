@@ -1,0 +1,22 @@
+.navbar {
+    display:flex;
+    flex-direction: row;
+    padding: 0 12%;
+    color:white;
+    background-color:#302f4f 
+
+}
+
+.logo {
+    justify-content: left;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    list-style-type: none;
+}
+.navigation > li {
+    padding: 0 5%;
+}
