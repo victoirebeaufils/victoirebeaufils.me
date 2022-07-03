@@ -1,8 +1,38 @@
-@import url('https://fonts.googleapis.com/css2?family=Jost:wght@600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@600&display=swap");
 body {
-    background-color: #1B1B2D;
-    font-family: "Jost", sans-serif;
-    font-style: normal;
-font-weight: 600;
-font-size: 20px;
+  background-color: #1b1b2d;
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  color: white;
+}
+
+.row {
+  flex: auto;
+  flex-direction: row;
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 970px;
+  }
+  .timeline {
+    max-width: 750px;
+    text-align: center;
+    margin: 0 auto;
+  }
+}
+.about-section {
+  margin: 40px 0;
+}
+.projects {
+  margin: 40px 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a:hover {
+  color: inherit;
 }
