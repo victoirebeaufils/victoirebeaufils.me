@@ -28,7 +28,7 @@ const IndexPage = () => {
         <div className="col-md-3 picture">
           <StaticImage
             class="img-fluid"
-            src="../images/portrait.png"
+            src="../images/portrait.webp"
             layout="constrained"
             quality="100"
             height="150"
